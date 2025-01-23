@@ -107,6 +107,11 @@ pip install git+https://github.com/OpenRLHF/OpenRLHF.git
 git clone https://github.com/OpenRLHF/OpenRLHF.git
 cd OpenRLHF
 pip install -e .
+
+pip install deepspeed
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+
 ```
 
 > [!NOTE]
